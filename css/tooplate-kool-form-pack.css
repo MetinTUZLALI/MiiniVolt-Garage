@@ -488,3 +488,17 @@ strong {
   background-color: orange;
   color: white;
 }
+
+.carousel-container {
+      max-width: 80%;
+      margin: 50px auto;
+      border: 2px solid #FFA500;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 250px;
+    }
+
+    .carousel-item img {
+      height: 500px;
+      object-fit: cover;
+    }
