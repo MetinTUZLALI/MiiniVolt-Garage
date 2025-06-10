@@ -1,17 +1,4 @@
-/*
 
-Tooplate 2136 Kool Form Pack
-
-https://www.tooplate.com/view/2136-kool-form-pack
-
-Bootstrap 5 Form Pack Template
-
-*/
-
-
-/*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
------------------------------------------*/
 :root {
   --body-bg-color:                #181717;
   --white-color:                  #ffffff;
@@ -378,7 +365,13 @@ strong {
     opacity: 0.5;
     z-index: 9999;
   }
+  .hero-section .container {
+    height: auto;      /* içeriğe göre yükseklik */
+    max-height: none;
+    overflow: visible;
+  }
 }
+
 
 .hero-section .container {
   position: absolute;
