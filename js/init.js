@@ -14,7 +14,7 @@ window.addEventListener('load', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  const pages = ['page1', 'page2', 'page3', 'page4', 'page5'];
+  const pages = ['page1', 'page2', 'page3'];
 
   function showPage(pageId) {
       pages.forEach(id => {
