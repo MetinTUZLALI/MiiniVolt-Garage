@@ -363,11 +363,13 @@ strong {
 /* Mobil uyum için */
 @media (max-width: 768px) {
   #overlay-img {
-    top: 750px;
-    left: 85%;
+    position: fixed;
+    top: 520px;
+    left: 90%;
     transform: translateX(-50%);
-    width: 100px;
-    opacity: 0.5;
+    width: 80px;
+    opacity: 1;
+    display: block !important;
     z-index: 9999;
   }
   .hero-section .container {
