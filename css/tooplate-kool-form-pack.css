@@ -253,9 +253,14 @@ strong {
 .hero-section {
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 103vh;
   min-height: 675px;
 
+}
+.hero-section {
+  
+  min-height: 500px;
+  padding-bottom: 50px;
 }
 
 
@@ -417,20 +422,21 @@ strong {
 }
 
 .content-area {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center; /* dikey ortala */
   align-items: center; /* yatay ortala */
-  height: 300px; /* veya istediğin yüksekliği ver */
+  height: auto; /* veya istediğin yüksekliği ver */
   text-align: center;
   gap: 10px; /* içerikler arası boşluk */
   box-sizing: border-box;
   overflow: hidden;
+  padding-bottom: 30px;
 }
 
 .bottom-bar {
-  margin-top: 650px;
+  margin-top: 500px;
   height: 40px;
   width: 100%;
   max-width: 600px;
@@ -483,13 +489,12 @@ strong {
 }
 
 .carousel-container {
-      max-width: 80%;
-      margin: 50px auto;
-      border: 2px solid #FFA500;
-      border-radius: 10px;
-      overflow: hidden;
-      margin-bottom: 250px;
-    }
+  max-width: 150%;
+  margin: 30px auto 250px auto;
+  border: 2px solid #FFA500;
+  border-radius: 10px;
+  overflow: hidden;
+}
 
     .carousel-item img {
       height: 500px;
