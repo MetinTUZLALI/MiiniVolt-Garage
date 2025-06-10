@@ -353,7 +353,7 @@ strong {
   position: absolute;
   border-radius: 40px;
   top: 300px;
-  left: 1450px;
+  left: 750px;
   opacity: 1; /* geçici görünürlük için 1 */
   transition: opacity 1s ease-in-out;
   width: 150px;
