@@ -368,6 +368,7 @@ strong {
     transform: translateX(-50%);
     width: 120px;
     opacity: 0.8;
+    transition: opacity 1s ease-in-out;
   }
 }
 
@@ -378,6 +379,7 @@ strong {
     transform: translateX(-50%);
     width: 100px;
     opacity: 0.8;
+    transition: opacity 1s ease-in-out;
   }
 }
 
@@ -392,6 +394,7 @@ strong {
     opacity: 1;
     display: block !important;
     z-index: 9999;
+    transition: opacity 1s ease-in-out;
   }
   .hero-section .container {
     height: auto;      /* içeriğe göre yükseklik */
